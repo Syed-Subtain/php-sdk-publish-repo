@@ -1,5 +1,5 @@
 
-# Getting Started with APIMATIC CALCULATOR
+# Getting Started with apimatic calculator
 
 ## Introduction
 
@@ -10,19 +10,19 @@ Simple calculator API hosted on APIMATIC
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```php
-composer require "syed-subtain/apimaticignoresdk:5.5.5"
+composer require "syed-subtain/apimaticignoresdk:2.2.2"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```php
 "require": {
-    "syed-subtain/apimaticignoresdk": "5.5.5"
+    "syed-subtain/apimaticignoresdk": "2.2.2"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/syed-subtain/apimaticignoresdk#5.5.5
+https://packagist.org/packages/syed-subtain/apimaticignoresdk#2.2.2
 
 ## Test the SDK
 
@@ -35,7 +35,7 @@ You can change the PHPUnit test configuration in the `phpunit.xml` file.
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/php-sdk-publish-repo/tree/5.5.5/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Syed-Subtain/php-sdk-publish-repo/tree/2.2.2/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -55,18 +55,18 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```php
-$client = APIMATICCALCULATORClientBuilder::init()
+$client = ApimaticCalculatorClientBuilder::init()
     ->environment(Environment::PRODUCTION)
     ->build();
 ```
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/Syed-Subtain/php-sdk-publish-repo/tree/5.5.5/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/Syed-Subtain/php-sdk-publish-repo/tree/2.2.2/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [ApiException](https://www.github.com/Syed-Subtain/php-sdk-publish-repo/tree/5.5.5/doc/api-exception.md)
-* [HttpRequest](https://www.github.com/Syed-Subtain/php-sdk-publish-repo/tree/5.5.5/doc/http-request.md)
-* [HttpResponse](https://www.github.com/Syed-Subtain/php-sdk-publish-repo/tree/5.5.5/doc/http-response.md)
+* [ApiException](https://www.github.com/Syed-Subtain/php-sdk-publish-repo/tree/2.2.2/doc/api-exception.md)
+* [HttpRequest](https://www.github.com/Syed-Subtain/php-sdk-publish-repo/tree/2.2.2/doc/http-request.md)
+* [HttpResponse](https://www.github.com/Syed-Subtain/php-sdk-publish-repo/tree/2.2.2/doc/http-response.md)
 
