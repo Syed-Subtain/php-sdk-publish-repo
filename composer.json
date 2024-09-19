@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "APIMATICCalculatorLib\\": "src/"
+            "APIMATICCALCULATORLib\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "APIMATICCalculatorLib\\Tests\\": "tests/"
+            "APIMATICCALCULATORLib\\Tests\\": "tests/"
         }
     },
     "scripts": {
